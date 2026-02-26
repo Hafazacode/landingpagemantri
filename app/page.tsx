@@ -7,7 +7,7 @@ const Scene3D = dynamic(() => import('../Components/Experience'), {
   ssr: false,
   loading: () => (
     <div className="w-screen h-screen flex items-center justify-center bg-[#ffedd5] font-bold text-amber-700">
-      Memuat Klinik 3D...
+      Memuat Klinik 3D....
     </div>
   ),
 });
